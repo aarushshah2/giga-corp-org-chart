@@ -96,7 +96,7 @@ CSV → PapaParse → d3.stratify() → eachAfter() [metrics + node build] → O
 ### Install & Run
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/giga-corp-org-chart.git
+git clone https://github.com/aarushshah2/giga-corp-org-chart.git
 cd giga-corp-org-chart
 npm install
 npm run dev
