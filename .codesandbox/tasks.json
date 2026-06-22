@@ -1,12 +1,12 @@
 {
-  "setupTasks": ["npm install", "npm run build"],
+  "setupTasks": ["npm install"],
   "tasks": {
-    "preview": {
+    "dev": {
       "name": "Application",
-      "command": "npm run preview",
+      "command": "npm run dev:sandbox",
       "runAtStart": true,
       "preview": {
-        "port": 4173,
+        "port": 5173,
         "readyOn": 200
       }
     }

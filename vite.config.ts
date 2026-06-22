@@ -8,17 +8,18 @@ const isSandbox =
   !!process.env.CODESANDBOX_HOST
 
 export default defineConfig({
+  // Required for GitHub Pages (https://user.github.io/repo-name/)
+  base: process.env.GITHUB_ACTIONS ? '/giga-corp-org-chart/' : '/',
   plugins: [vue(), tailwindcss()],
   server: {
     host: '0.0.0.0',
     port: 5173,
     strictPort: true,
-    // CodeSandbox proxy chokes on Vite HMR websocket traffic
     hmr: isSandbox ? false : undefined,
   },
   preview: {
     host: '0.0.0.0',
-    port: 4173,
+    port: 5173,
     strictPort: true,
   },
 })
