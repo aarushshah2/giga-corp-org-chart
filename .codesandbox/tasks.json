@@ -1,9 +1,9 @@
 {
   "setupTasks": ["npm install"],
   "tasks": {
-    "dev": {
+    "app": {
       "name": "Application",
-      "command": "npm run dev:sandbox",
+      "command": "npm run start:static",
       "runAtStart": true,
       "preview": {
         "port": 5173,
