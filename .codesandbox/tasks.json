@@ -1,0 +1,14 @@
+{
+  "setupTasks": ["npm install", "npm run build"],
+  "tasks": {
+    "preview": {
+      "name": "Application",
+      "command": "npm run preview",
+      "runAtStart": true,
+      "preview": {
+        "port": 4173,
+        "readyOn": 200
+      }
+    }
+  }
+}
