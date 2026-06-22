@@ -7,7 +7,7 @@
 [![Vue 3](https://img.shields.io/badge/Vue-3.5-42b883?logo=vuedotjs)](https://vuejs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178c6?logo=typescript)](https://typescriptlang.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-06b6d4?logo=tailwindcss)](https://tailwindcss.com)
-[![Vite](https://img.shields.io/badge/Vite-8-646cff?logo=vite)](https://vite.dev)
+[![Vite](https://img.shields.io/badge/Vite-5-646cff?logo=vite)](https://vite.dev)
 
 ---
 
@@ -80,7 +80,7 @@ CSV → PapaParse → d3.stratify() → eachAfter() [metrics + node build] → O
 |-------|-----------|
 | Framework | Vue 3 (Composition API + `<script setup>`) |
 | Language | TypeScript |
-| Build | Vite 8 |
+| Build | Vite 5 |
 | Styling | Tailwind CSS v4 |
 | Tree | d3-hierarchy (stratify + eachAfter) |
 | CSV | PapaParse |
