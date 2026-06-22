@@ -1,12 +1,15 @@
 {
-  "setupTasks": ["npm install"],
+  "setupTasks": [
+    "npm install",
+    "npm run build:sandbox"
+  ],
   "tasks": {
     "app": {
       "name": "Application",
-      "command": "npm run start:static",
+      "command": "npx -y serve -s dist -l 3000 --no-clipboard",
       "runAtStart": true,
       "preview": {
-        "port": 5173,
+        "port": 3000,
         "readyOn": 200
       }
     }
